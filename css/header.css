@@ -1,8 +1,20 @@
 .site-header {
     background-color: #1e293b;
-    border-bottom: 1px solid #334155;
+    border-bottom: 2px solid #334155;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     padding: 15px 30px;
-    overflow: hidden; /* Очистка float */
+    overflow: hidden;
+    position: relative;
+}
+
+.site-header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #38bdf8;
 }
 
 .logo {
@@ -11,6 +23,10 @@
     font-weight: bold;
     color: #ffffff;
     letter-spacing: 1px;
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    padding: 6px 12px;
+    border-radius: 4px;
 }
 
 .logo span {
@@ -19,15 +35,22 @@
 
 .site-header nav {
     float: right;
-    margin-top: 3px;
+    margin-top: 9px;
 }
 
 .site-header nav a {
     color: #94a3b8;
     margin-left: 20px;
     font-size: 14px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 3px;
+    background-color: #161e2e;
+    border: 1px solid #283548;
 }
 
 .site-header nav a:hover {
     color: #38bdf8;
+    background-color: #0f172a;
+    border-color: #38bdf8;
 }
