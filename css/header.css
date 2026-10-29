@@ -1,0 +1,33 @@
+.site-header {
+    background-color: #1e293b;
+    border-bottom: 1px solid #334155;
+    padding: 15px 30px;
+    overflow: hidden; /* Очистка float */
+}
+
+.logo {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+.site-header nav {
+    float: right;
+    margin-top: 3px;
+}
+
+.site-header nav a {
+    color: #94a3b8;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.site-header nav a:hover {
+    color: #38bdf8;
+}

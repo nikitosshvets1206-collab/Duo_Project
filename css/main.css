@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.hero-content {
+    float: left;
+    width: 55%;
+}
+
+.eyebrow {
+    color: #38bdf8;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #94a3b8;
+}
+
+.intro {
+    color: #94a3b8;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #0ea5e9;
+}
+
+/* Имитация монитора на CSS */
+.computer-art {
+    float: right;
+    width: 35%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.monitor {
+    width: 220px;
+    height: 140px;
+    background-color: #1e293b;
+    border: 4px solid #334155;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.screen {
+    background-color: #090d16;
+    height: 100%;
+    border-radius: 3px;
+    line-height: 110px;
+    color: #38bdf8;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.monitor-stand {
+    width: 40px;
+    height: 25px;
+    background-color: #334155;
+    margin: 0 auto;
+}
+
+.computer-base {
+    width: 100px;
+    height: 8px;
+    background-color: #334155;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.section, 
+.uses-section, 
+.photo-section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.section-heading p {
+    color: #94a3b8;
+    font-size: 15px;
+}
+
+/* Сетка карточек на float */
+.component-grid {
+    overflow: hidden;
+    margin-left: -20px;
+}
+
+.component-card {
+    float: left;
+    width: 340px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.card-number {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.component-photo {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.component-icon {
+    font-size: 20px;
+    color: #38bdf8;
+    margin-bottom: 8px;
+}
+
+.component-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.component-card p {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.photo-credit {
+    display: block;
+    font-size: 11px;
+    color: #64748b;
+    text-align: right;
+}
+
+.photo-credit:hover {
+    color: #94a3b8;
+}
+
+.uses-section {
+    overflow: hidden;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.uses-copy {
+    float: left;
+    width: 45%;
+}
+
+.uses-copy h2 {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.uses-copy p {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.uses-list {
+    float: right;
+    width: 48%;
+}
+
+.uses-list li {
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.uses-list li span {
+    color: #38bdf8;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.photo-grid {
+    overflow: hidden;
+    margin-left: -20px;
+}
+
+.photo-card {
+    float: left;
+    width: 340px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.photo-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.photo-card figcaption {
+    padding: 12px 15px;
+    font-size: 13px;
+    color: #94a3b8;
+    text-align: center;
+}
